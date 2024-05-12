@@ -1,0 +1,76 @@
+﻿body
+{
+background-align:center;
+background-color: black;  /*Aqua*/
+width:1024px;
+height:inherit;
+border:2px white;
+margin-left: auto;
+margin-right: auto;
+background-image:url("Poz1.jpg");
+background-repeat : no-repeat; 
+background-position:left and right;
+background-attachment : fixed;
+background-size:cover;
+}	
+div.transbox
+{
+
+top:150px;
+left:435px;
+transbox-width:inherit;
+transbox-height:inherit;
+background-color:red ;   
+border:1px white;
+opacity:0.8;
+ filter:alpha(opacity=80); *//* For IE8 and earlier */
+transbox-position:center;
+margin-left: auto;
+margin-right: auto;
+}
+
+p
+  {
+  text-indent:80px;
+  line-height:25px;
+  font-weight: 900;
+  margin: 65px ;
+  color:yellow;
+  font-size: 18px;
+ }
+
+h1
+{
+
+left:230px;
+top:0px;
+}
+h1 /* Za Glavni Naslov */
+{
+text-align:center;
+ 
+}
+
+h2 /* Za Manje Naslove */
+{
+text-align:left;
+color:black;
+font-style:oblique
+font-size:20px;
+}
+
+h3/* Za linkove */
+{
+text-align:center;
+color:black;
+font-size:25px;
+text-decoration:blink;
+}
+
+h4/* Za linkove */
+{
+text-align:center;
+color:yellow;
+font-size:30px;
+text-decoration:underline;
+}
